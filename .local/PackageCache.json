@@ -242,16 +242,6 @@
         "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision\\3.3.0"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.OCR.Contracts",
-        "Version": "2.11.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.contracts/2.11.0\\lib/net461/UiPath.OCR.Contracts.dll"
-      ],
-      "Path": "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0"
     }
   ],
   "Conflicts": [],
