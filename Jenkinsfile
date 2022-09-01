@@ -13,8 +13,6 @@ pipeline {
 
 
     stages {
-
-
         // Printing Basic Information
         stage('Preparing'){
             steps {
@@ -31,7 +29,7 @@ pipeline {
          // Build Stages
         stage('Build') {
             steps {
-                echo "Building..with ${WORKSPACE}"
+                echo "Building...with ${WORKSPACE}"
                 UiPathPack (
                       outputPath: "Output\\${env.BUILD_NUMBER}",
                       projectJsonPath: "project.json",
@@ -50,9 +48,9 @@ pipeline {
 
 
          // Deploy Stages
-        stage('Deploy ') {
+        stage('Deploy to PreProd') {
             steps {
-                echo "Deploying ${BRANCH_NAME} to UAT "
+                echo "Deploying ${BRANCH_NAME} to PreProd "
                 UiPathDeploy (
                 packagePath: "Output\\${env.BUILD_NUMBER}",
                 orchestratorAddress: "${UIPATH_ORCH_URL}",
@@ -66,8 +64,6 @@ pipeline {
         )
             }
         }
-
-
 
 
          // Deploy to Production Step
@@ -87,9 +83,6 @@ pipeline {
     }
 
 
-
-
-    //
     post {
         success {
             echo 'Deployment has been completed!'

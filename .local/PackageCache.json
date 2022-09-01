@@ -226,6 +226,32 @@
         "C:\\Users\\quimm001\\.nuget\\packages\\uipath.platform/22.4.1\\lib/net461/UiPath.Platform.dll"
       ],
       "Path": "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.activities\\3.6.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Vision",
+        "Version": "3.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.contracts/2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision/3.3.0\\lib/net461/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\quimm001\\.nuget\\packages\\uipath.vision\\3.3.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Contracts",
+        "Version": "2.11.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.contracts/2.11.0\\lib/net461/UiPath.OCR.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\quimm001\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0"
     }
   ],
   "Conflicts": [],
