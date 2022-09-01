@@ -8402,8 +8402,7 @@
       "UiPath.Mail.Activities >= 1.15.2 <= 1.15.2",
       "UiPath.OCR.Activities >= 3.6.2 <= 3.6.2",
       "UiPath.System.Activities >= 22.4.4 <= 22.4.4",
-      "UiPath.UIAutomation.Activities >= 22.4.7 <= 22.4.7",
-      "UiPath.Vision >= 3.3.0 <= 3.3.0"
+      "UiPath.UIAutomation.Activities >= 22.4.7 <= 22.4.7"
     ]
   },
   "packageFolders": {
@@ -8444,11 +8443,6 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[22.4.7, 22.4.7]"
-          },
-          "UiPath.Vision": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[3.3.0, 3.3.0]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
