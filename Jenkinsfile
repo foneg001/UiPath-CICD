@@ -6,9 +6,12 @@ pipeline {
         MINOR = '0'
         //Orchestrator Services
         UIPATH_ORCH_URL = "https://cloud.uipath.com/"
-        UIPATH_ORCH_LOGICAL_NAME = "dccwvdesgn"
+        //UIPATH_ORCH_LOGICAL_NAME = "dccwvdesgn"
+        //UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
+        //UIPATH_ORCH_FOLDER_NAME = "Shared"
+	UIPATH_ORCH_LOGICAL_NAME = "vodacgblmudy"
         UIPATH_ORCH_TENANT_NAME = "DefaultTenant"
-        UIPATH_ORCH_FOLDER_NAME = "Shared"
+        UIPATH_ORCH_FOLDER_NAME = "Test_CICD_Cloud"
     }
 
 
@@ -58,7 +61,8 @@ pipeline {
                 folderName: "${UIPATH_ORCH_FOLDER_NAME}",
                 environments: 'Default',
                 //credentials: [$class: 'UserPassAuthenticationEntry', credentialsId: 'APIUserKey']
-                credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
+                //credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APIUserKey'),
+		credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: 'APICloud'),	
                 traceLevel: 'None',
 				entryPointPaths: 'Main.xaml'
         )
